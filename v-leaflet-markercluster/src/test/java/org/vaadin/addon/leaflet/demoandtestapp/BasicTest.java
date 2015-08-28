@@ -28,7 +28,6 @@ import com.vaadin.ui.CheckBox;
 import com.vaadin.ui.Component;
 import com.vaadin.ui.Notification;
 import com.vaadin.ui.Notification.Type;
-import org.vaadin.addon.leaflet.LOpenStreetMapLayer;
 
 // 
 public class BasicTest extends AbstractTest {

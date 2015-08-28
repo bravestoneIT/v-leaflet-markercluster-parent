@@ -8,8 +8,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <vaadin.version>7.2.6</vaadin.version>
-        <v-leaflet-version>0.5.7</v-leaflet-version>
+        <vaadin.version>7.5.3</vaadin.version>
+        <v-leaflet-version>0.6.4</v-leaflet-version>
         <g-leaflet-markercluster-version>${project.version}</g-leaflet-markercluster-version>
     </properties>
 
@@ -33,8 +33,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
             <plugin>

@@ -18,9 +18,9 @@ public class MarkerClusterGroup extends LayerGroup implements ILayer {
 	
 	protected MarkerClusterGroup() {}
 	
-	public static native MarkerClusterGroup create() 
+	public static native MarkerClusterGroup create(MarkerClusterGroupOptions options) 
 	/*-{
-		return new $wnd.L.MarkerClusterGroup();
+		return new $wnd.L.MarkerClusterGroup(options);
 	}-*/;
 	
 	public static native void addLayer(Marker marker) 
